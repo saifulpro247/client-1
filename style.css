@@ -16,7 +16,6 @@ body{
 }
 img {
     max-width: 100%;
-    object-fit: cover;
     height: auto;
 }
 .row-reverse{
@@ -25,6 +24,9 @@ img {
 /* section css */
 .section_padding{
 	padding: 100px 0;
+}
+.breadcrumb_text h1 {
+    font-size: 60px;
 }
 
 /* step  */
@@ -61,4 +63,21 @@ img {
 .job_details_img {
     border: 2px solid #f1df37;
     padding: 5px;
+}
+.job_details_img img {
+    max-height: 500px;
+    width: 100%;
+}
+.task_end_img img {
+	height: 208px;
+	max-width: 100%;
+}
+.download_app {
+    display: flex;
+    gap: 10px;
+}
+
+.download_app img {
+    height: 100px;
+    width: 230px;
 }
