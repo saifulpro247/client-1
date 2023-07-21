@@ -1,0 +1,64 @@
+/* Style Css Here */
+
+:root{
+	--main-font: 'Raleway', sans-serif;
+	--primary-color: #000000;
+	--secondary-color: #151515;
+	--line-height: 35px;
+	--body-bg: #fff;
+}
+
+body{
+	font-family: var(--main-font);
+	color: 	var(--secondary-color);
+	line-height: var(--line-height);
+	background-color: var(--body-bg);
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.row-reverse{
+	flex-direction: row-reverse;
+}
+/* section css */
+.section_padding{
+	padding: 100px 0;
+}
+
+/* step  */
+.provide_process_img img {
+    height: 450px;
+    width: 225px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 38px 0 rgba(0,0,0,.19);
+}
+
+.provide_process_img {
+    position: relative;
+    padding: 15px;
+}
+
+.provide_process_img .process_two {
+    position: absolute;
+    top: 20%;
+    margin-left: 50px;
+}
+
+.provide_process_text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.provide_process_text p {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.job_details_img {
+    border: 2px solid #f1df37;
+    padding: 5px;
+}
